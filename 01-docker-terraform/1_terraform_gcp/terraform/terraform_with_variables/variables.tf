@@ -8,7 +8,7 @@ variable "credentials" {
 
 variable "project" {
   description = "Project"
-  default     = "<Your Project ID>"
+  default     = "secret-descent-447100-b5"
 }
 
 variable "region" {
@@ -26,13 +26,13 @@ variable "location" {
 variable "bq_dataset_name" {
   description = "My BigQuery Dataset Name"
   #Update the below to what you want your dataset to be called
-  default     = "demo_dataset"
+  default     = "dataset"
 }
 
 variable "gcs_bucket_name" {
   description = "My Storage Bucket Name"
   #Update the below to a unique bucket name
-  default     = "terraform-demo-terra-bucket"
+  default     = "terraform-data-lake-bucket"
 }
 
 variable "gcs_storage_class" {
